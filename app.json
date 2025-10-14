@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Tap That Clock",
+    "slug": "tap-that-clock",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.tapthatclock",
+      "infoPlist": {
+        "NSUserNotificationUsageDescription": "Tap That Clock uses notifications to wake you up at your scheduled alarm times."
+      }
+    },
+    "android": {},
+    "web": {}
+  }
+}

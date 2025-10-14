@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "allowJs": false,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["react", "react-native", "expo", "jest"],
+    "baseUrl": "."
+  },
+  "include": ["App.tsx", "src", "__tests__"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
